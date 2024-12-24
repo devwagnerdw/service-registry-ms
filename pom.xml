@@ -5,8 +5,8 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.5.6</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <version>3.4.1</version>
+        <relativePath/>
     </parent>
     <groupId>com.ead</groupId>
     <artifactId>service-registry</artifactId>
@@ -14,8 +14,8 @@
     <name>service-registry</name>
     <description>service-registry</description>
     <properties>
-        <java.version>11</java.version>
-        <spring-cloud.version>2020.0.4</spring-cloud.version>
+        <java.version>17</java.version>
+        <spring-cloud.version>2024.0.0</spring-cloud.version>
     </properties>
     <dependencies>
         <dependency>
@@ -55,5 +55,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
